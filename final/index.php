@@ -23,7 +23,7 @@
          $p3 = test_input($_POST["p3"]);
          $p4 = test_input($_POST["p4"]);
          $r = test_input($_POST["r"]);
-         exec("/home/pi/dev/cdemo/final/gpa " . $p1 . " " . $p2 . " " . $p3 . " " . $p4 . " " . $r, $output, $retc); 
+         exec("/usr/lib/cgi-bin/sp1b/final/gpa " . $p1 . " " . $p2 . " " . $p3 . " " . $p4 . " " . $r, $output, $retc); 
        }
        function test_input($data) {
          if ($data == "") {
